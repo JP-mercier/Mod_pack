@@ -1,4 +1,4 @@
-# 💰 Payday 2 Modpack 🎮
+# 🎮 Payday 2 Modpack 
 
 This repository contains a curated collection of quality-of-life and gameplay enhancement mods for **Payday 2**.
 
