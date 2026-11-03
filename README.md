@@ -2,7 +2,7 @@
 
 My PAYDAY 2 mods folder, packaged so it can be dropped into a fresh install. It covers HUD and lobby information, quality-of-life fixes, and a few mods I wrote myself.
 
-Runs on SuperBLT (64-bit). Last updated October 2026.
+Runs on SuperBLT (64-bit). Last updated November 2026.
 
 ## Contents
 
@@ -42,6 +42,7 @@ Written or maintained by me. They are not on ModWorkshop; the source is on GitHu
 | [ECM Rush Announcer](https://github.com/JP-mercier/ecm-rush-announcer) | `ECM Rush Announcer` | During an ECM rush, announces in chat whose turn it is to place the next ECM (GREEN > BLUE > RED > YELLOW), with a warning before the current one runs out. Only players with ECM Specialist aced (pager jamming) are counted. Arm it with its keybind. |
 | Lobby ECM Check | `Lobby ECM Check` | Shows in the lobby which players actually have ECM Specialist aced. Lobby Player Info's ECM icon only counts Shinobi points, which can reach 38 without the ace; this resolves the unclear cases from what was seen in earlier heists. Requires Lobby Player Info. |
 | [Lobby Recreate](https://github.com/JP-mercier/payday2-lobby-recreate) | `Lobby Recreate` | Press the keybind in a broken lobby, as host or client. You leave, host a new lobby with the same contract and settings, and everyone from the old one is invited. |
+| [XP Total HUD](https://github.com/JP-mercier/payday2-xp-total-hud) | `XP Total HUD` | In heists, a label with the XP the day pays if it ends now (the same total XPNotifier showed), plus the last gain. In the main menu profile box and in lobbies, total level XP and XP left to infamy. Position is adjustable under **Options > Mod Options > XP Total HUD**. |
 | [Chat Translator](https://github.com/JP-mercier/PD2-Chat-Translator-by-powware-in-3.0) | `Chat Translator` | 64-bit update of [powware's Chat Translator](https://modworkshop.net/mod/29967). Click a chat message to translate it, and type in any language. Uses Google Translate. |
 
 ### HUD and interface
@@ -52,7 +53,6 @@ Written or maintained by me. They are not on ModWorkshop; the source is on GitHu
 | [Void UI Scoreboard Standalone](https://modworkshop.net/mod/30948) | `Void UI Scoreboard Standalone` | Xeletron, Fanged Hex, VxWolf | The end-of-heist scoreboard from Void UI, without the rest of Void UI. |
 | [Name Label Fading](https://modworkshop.net/mod/35185) | `Name Label Fading` | Luis_De | Fades player name labels when they are near the center of the screen, so they don't block your aim. |
 | [Endscreen XP List](https://modworkshop.net/mod/42283) | `Endscreen XP List` | zReko | Keeps every XP bonus line visible on the end screen instead of replacing them one after another. |
-| [XPNotifier](https://github.com/vilanz/xp-notifier) | `XpNotifier` | vilanz | Shows a notification with the XP gained when a heist ends, with optional total and base XP. |
 | [Drag and Drop Inventory](https://pd2mods.z77.fr/drag_and_drop_inventory.html) | `Drag and Drop Inventory` | TdlQ | Rearrange masks and weapons in the inventory by dragging them. |
 | [Peer mod list highlighter](https://modworkshop.net/mod/39250) | `Peer mod list highlighter` | irbizzelus | Highlights chosen mods in other players' mod lists and on the Crime.net lobby screen. Add mods to the list in `lua/base.lua`. |
 
@@ -96,7 +96,7 @@ These mods do nothing until a key is assigned under **Options > Mod Keybinds**:
 
 ## Updating
 
-Mods with an update source (SuperBLT, BeardLib, VanillaHUD Plus, BerserkerQOL, Infamy in Lobby, XPNotifier, and the TdlQ mods through Simple Mod Updater) check for updates on launch, and SuperBLT notifies you when one is out. For the others, download from the links above. My mods get updates through their GitHub repos.
+Mods with an update source (SuperBLT, BeardLib, VanillaHUD Plus, BerserkerQOL, Infamy in Lobby, and the TdlQ mods through Simple Mod Updater) check for updates on launch, and SuperBLT notifies you when one is out. For the others, download from the links above. My mods get updates through their GitHub repos.
 
 ## Notes
 
