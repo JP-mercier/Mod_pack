@@ -8,16 +8,78 @@ Runs on SuperBLT (64-bit). Last updated November 2026.
 
 | Path in `mod_pack.zip` | What it is |
 |---|---|
-| `WSOCK32.dll` | SuperBLT hook DLL. Goes in the game folder, next to `payday2_win64_release.exe`. |
-| `mods/` | 30 mod folders plus `mods/saves/` (my settings for the mods below). Goes in the game folder. |
+| `mod_pack/WSOCK32.dll` | SuperBLT hook DLL. Goes in the game folder, next to `PAYDAY2.exe`. |
+| `mod_pack/mods/` | 30 mod folders plus `mods/saves/` (my settings for the mods below). Goes in the game folder. |
 
 ## Installation
 
-1. Back up your current `mods` folder and `WSOCK32.dll` if you have them.
-2. Download `mod_pack.zip` and extract it.
-3. Copy `WSOCK32.dll` and the `mods` folder into the PAYDAY 2 install folder, usually `C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2`.
-4. Launch the game. SuperBLT may ask to update itself on first start; accept it.
-5. Set the keybinds under **Options > Mod Keybinds**. They are not part of the pack (see [Keybinds](#keybinds)).
+Never installed a PAYDAY 2 mod before? Follow these steps in order. It takes about five minutes, and nothing in the game's own files gets changed: the mods sit next to them and can be removed at any time.
+
+### What you need
+
+- PAYDAY 2 on PC (Windows), through Steam.
+- The game closed while you install.
+
+### 1. Open your game folder
+
+In Steam, go to your **Library**, right-click **PAYDAY 2**, then **Manage > Browse local files**. A File Explorer window opens on the game folder. You are in the right place if you see `PAYDAY2.exe` in it.
+
+The usual location is `C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2`, but it can be on another drive if you installed the game elsewhere.
+
+Keep this window open.
+
+### 2. Back up mods you already have (skip if this is your first time)
+
+If the game folder already has a `mods` folder or a `WSOCK32.dll` file, you have mods installed. Rename `mods` to `mods_old` and move `WSOCK32.dll` to your Desktop, so you can go back if needed.
+
+### 3. Download the pack
+
+At the top of this page, click `mod_pack.zip` in the file list, then click the **Download raw file** button (the down arrow on the right). The file is about 13 MB and lands in your `Downloads` folder.
+
+### 4. Extract the zip
+
+In `Downloads`, right-click `mod_pack.zip` and choose **Extract All...**, then **Extract**. This creates a `mod_pack` folder. Open it: inside are exactly two things, `WSOCK32.dll` and a `mods` folder.
+
+### 5. Copy them into the game folder
+
+Select `WSOCK32.dll` and `mods` (click one, Ctrl+click the other), copy them (Ctrl+C), go to the game folder window from step 1 and paste (Ctrl+V). If Windows asks for administrator permission, click **Continue**.
+
+Copy those two items, not the `mod_pack` folder itself. When you are done, the game folder looks like this:
+
+```
+PAYDAY 2/
+├── PAYDAY2.exe
+├── WSOCK32.dll        <- new
+├── mods/              <- new
+│   ├── base/
+│   ├── saves/
+│   ├── VanillaHUD Plus/
+│   └── (the other mods)
+└── (the game's own files)
+```
+
+### 6. Start the game
+
+Launch PAYDAY 2 from Steam as usual. The first start can take a little longer. If SuperBLT says an update is available, accept it.
+
+To check that it worked, go to **Options** in the main menu: you should see **Mod Options** and **Mod Keybinds**. If they are there, the mods are loaded.
+
+### 7. Set your keybinds
+
+A few mods do nothing until you give them a key. Set them under **Options > Mod Keybinds** (the list is in [Keybinds](#keybinds) below).
+
+### Removing the mods
+
+Delete `WSOCK32.dll` and the `mods` folder from the game folder. The game is back to normal on the next start. (Steam's **Verify integrity of game files** does not remove them, since they are not game files.)
+
+### If something goes wrong
+
+| Problem | Fix |
+|---|---|
+| The game looks normal and there is no **Mod Options** | `WSOCK32.dll` is not right next to `PAYDAY2.exe`. Usually the files ended up one folder too deep, like `PAYDAY 2\mod_pack\WSOCK32.dll` or `PAYDAY 2\mods\mods\`. Compare with the tree in step 5. |
+| The game won't start, or an error mentions a missing DLL or `MSVCP` | Install the [Microsoft Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe), then try again. |
+| Your antivirus blocks or deletes `WSOCK32.dll` | That file is SuperBLT, the mod loader. If you'd rather not trust my copy, download the same file from [superblt.znix.xyz](https://superblt.znix.xyz/) and use it instead. |
+| The game crashes | The crash report is in `%LOCALAPPDATA%\PAYDAY 2\crash.txt` (paste that path in the File Explorer address bar), and the mod logs are in `mods\logs`. The last lines usually name the mod at fault. Right after a big game update, mods can break until their authors update them. |
 
 Settings for VanillaHUD Plus, Void UI Scoreboard, Lobby Player Info, BerserkerQOL, AnimSkins Tuner and a few others come preconfigured from `mods/saves/`. Delete a mod's save file to reset that mod to its defaults.
 
