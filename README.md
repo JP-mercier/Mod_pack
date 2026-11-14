@@ -95,17 +95,17 @@ Settings for VanillaHUD Plus, Void UI Scoreboard, Lobby Player Info, BerserkerQO
 
 ### My mods
 
-Written or maintained by me. They are not on ModWorkshop; the source is on GitHub where linked.
+Written or maintained by me. They are not on ModWorkshop; the source is on GitHub where linked. Each mod's folder in `mods/` has the same name as the mod.
 
-| Mod | Folder | Description |
-|---|---|---|
-| [AnimSkins](https://github.com/JP-mercier/AnimSkins) | `AnimSkins` | Animated glowing weapon skins (Eldritch Rose, Crackle, Crystal, Interstellar, Inversion, Molton, Nebula, Nightwave, PaP Galaxy, Purple, Scribble, Shatter, Starfall, Inversion Universal). Shown on your own first-person weapons only; other players see nothing different. Skins made by Siuna. Requires BeardLib. |
-| [AnimSkins Tuner](https://github.com/JP-mercier/AnimSkins) | `AnimSkins Tuner` | In-game controls for AnimSkins: skin per weapon slot, glow brightness, bloom, scroll speed and direction, and reactive glow (stealth ember, assault surge, weapon heat). Found under **Options > Mod Options > AnimSkins Tuner**. |
-| [ECM Rush Announcer](https://github.com/JP-mercier/ecm-rush-announcer) | `ECM Rush Announcer` | During an ECM rush, announces in chat whose turn it is to place the next ECM (GREEN > BLUE > RED > YELLOW), with a warning before the current one runs out. Only players with ECM Specialist aced (pager jamming) are counted. Arm it with its keybind. |
-| [Lobby ECM Check](https://github.com/JP-mercier/payday2-lobby-ecm-check) | `Lobby ECM Check` | Shows in the lobby which players actually have ECM Specialist aced. Lobby Player Info's ECM icon only counts Shinobi points, which can reach 38 without the ace; this resolves the unclear cases from what was seen in earlier heists. Works on its own; with Lobby Player Info installed, it also corrects that mod's team skills box. |
-| [Lobby Recreate](https://github.com/JP-mercier/payday2-lobby-recreate) | `Lobby Recreate` | Press the keybind in a broken lobby, as host or client. You leave, host a new lobby with the same contract and settings, and everyone from the old one is invited. |
-| [XP Total HUD](https://github.com/JP-mercier/payday2-xp-total-hud) | `XP Total HUD` | In heists, a label with the XP the day pays if it ends now (the same total XPNotifier showed), the last gain, the level you will be once the day pays out, and an XP bar for that level. In the main menu profile box and in lobbies, total level XP and XP left to infamy. Position is adjustable under **Options > Mod Options > XP Total HUD**. |
-| [Chat Translator](https://github.com/JP-mercier/PD2-Chat-Translator-by-powware-in-3.0) | `Chat Translator` | 64-bit update of [powware's Chat Translator](https://modworkshop.net/mod/29967). Click a chat message to translate it, and type in any language. Uses Google Translate. |
+| Mod | Description |
+|---|---|
+| [AnimSkins](https://github.com/JP-mercier/AnimSkins) | Animated glowing weapon skins (Eldritch Rose, Crackle, Crystal, Interstellar, Inversion, Molton, Nebula, Nightwave, PaP Galaxy, Purple, Scribble, Shatter, Starfall, Inversion Universal). Shown on your own first-person weapons only; other players see nothing different. Skins made by Siuna. Requires BeardLib. |
+| [AnimSkins Tuner](https://github.com/JP-mercier/AnimSkins) | In-game controls for AnimSkins: skin per weapon slot, glow brightness, bloom, scroll speed and direction, and reactive glow (stealth ember, assault surge, weapon heat). Found under **Options > Mod Options > AnimSkins Tuner**. |
+| [ECM Rush Announcer](https://github.com/JP-mercier/ecm-rush-announcer) | During an ECM rush, announces in chat whose turn it is to place the next ECM (GREEN > BLUE > RED > YELLOW), with a warning before the current one runs out. Only players with ECM Specialist aced (pager jamming) are counted. Arm it with its keybind. |
+| [Lobby ECM Check](https://github.com/JP-mercier/payday2-lobby-ecm-check) | Shows in the lobby which players actually have ECM Specialist aced. Lobby Player Info's ECM icon only counts Shinobi points, which can reach 38 without the ace; this resolves the unclear cases from what was seen in earlier heists. Works on its own; with Lobby Player Info installed, it also corrects that mod's team skills box. |
+| [Lobby Recreate](https://github.com/JP-mercier/payday2-lobby-recreate) | Press the keybind in a broken lobby, as host or client. You leave, host a new lobby with the same contract and settings, and everyone from the old one is invited. |
+| [XP Total HUD](https://github.com/JP-mercier/payday2-xp-total-hud) | In heists, a label with the XP the day pays if it ends now (the same total XPNotifier showed), the last gain, the level you will be once the day pays out, and an XP bar for that level. In the main menu profile box and in lobbies, total level XP and XP left to infamy. Position is adjustable under **Options > Mod Options > XP Total HUD**. |
+| [Chat Translator](https://github.com/JP-mercier/PD2-Chat-Translator-by-powware-in-3.0) | 64-bit update of [powware's Chat Translator](https://modworkshop.net/mod/29967). Click a chat message to translate it, and type in any language. Uses Google Translate. |
 
 ### HUD and interface
 
