@@ -9,7 +9,7 @@ Runs on SuperBLT (64-bit). Last updated November 2026.
 | Path in `mod_pack.zip` | What it is |
 |---|---|
 | `mod_pack/WSOCK32.dll` | SuperBLT hook DLL. Goes in the game folder, next to `PAYDAY2.exe`. |
-| `mod_pack/mods/` | 32 mod folders plus `mods/saves/` (my settings for the mods below). Goes in the game folder. |
+| `mod_pack/mods/` | 33 mod folders plus `mods/saves/` (my settings for the mods below). Goes in the game folder. |
 
 ## Installation
 
@@ -108,6 +108,7 @@ Written or maintained by me. They are not on ModWorkshop; the source is on GitHu
 | [Chat Translator](https://github.com/JP-mercier/PD2-Chat-Translator-by-powware-in-3.0) | 64-bit update of [powware's Chat Translator](https://modworkshop.net/mod/29967). Click a chat message to translate it, and type in any language (`tl help` lists the language codes). Optional auto-translate of incoming messages (`tl auto`, off by default). PAYDAY terms like ECM, pager or dozer come out as each language's official in-game names. Uses Google Translate. |
 | [Recent Players Invite](https://github.com/JP-mercier/payday2-recent-players-invite) | Adds a **Recent** tab to the Social Hub with the players you played with: join their lobby, invite them to yours, or message them. |
 | [Chat Input Fix](https://github.com/JP-mercier/payday2-chat-input-fix) | Keeps the chat box you are typing in visible: on the end screens it no longer hides behind the payday screen (and then sends your old text with the next message), and during the "is joining" pause you can see what you type. A message you were typing when the screen changes (lobby to heist, heist to end screen) is kept and the chat reopens with it. |
+| [Post Heist Skip](https://github.com/JP-mercier/payday2-post-heist-skip) | One key (Backspace by default) at the end of a heist: skips the XP screen, picks your card, and as host takes everyone back to the lobby once the card drops are rolled. As a client it picks your card when the host moves everyone to the card screen. Press it again to stop waiting for teammates' cards. |
 
 ### HUD and interface
 
@@ -157,6 +158,8 @@ These mods do nothing until a key is assigned under **Options > Mod Keybinds**:
 - Lobby Recreate: recreate the lobby
 - 30 FPS Bind: switch the FPS cap
 - DRAW: switch hitbox drawing
+
+Post Heist Skip works without setup: it uses Backspace unless you give it another key there.
 
 ## Updating
 
