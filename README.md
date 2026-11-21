@@ -127,7 +127,7 @@ Written or maintained by me. They are not on ModWorkshop; the source is on GitHu
 | [Lobby Player Info](https://pd2mods.z77.fr/lobby_player_info.html) | `Lobby Player Info` | TdlQ | Shows each lobby player's perk deck and skill point distribution. |
 | [Infamy in Lobby](https://modworkshop.net/mod/41881) | `Infamy in Lobby` | Shane | Opens the infamy menu while in a lobby, so you can go infamous without leaving. |
 | [Infinamy Multiplayer](https://modworkshop.net/mod/49324) | `Infinamy Multiplayer` | Dyrax | Sends your real infamy rank above the vanilla cap. Players who also have the mod see it; everyone else sees the capped value. |
-| [Chat Commands](https://modworkshop.net/mod/30259) | `ChatCommands (no tp)` | ChildOfSorrow | Slash commands in chat: `/pm`, `/kick`, `/ban`, `/restart`, `/terminate`, `/fps`, `/mods`, `/profile`, `/playtime` and more. Type `/help` for the list. Host-only commands check that you are the host. This copy has the `/tp` command removed. |
+| [Chat Commands](https://github.com/JP-mercier/payday2-chat-commands-no-tp) | `ChatCommands (no tp)` | Helmut (based on ChildOfSorrow's Chat Commands) | Slash commands in chat: `/pm`, `/kick`, `/ban`, `/restart`, `/terminate`, `/fps`, `/mods`, `/profile`, `/playtime` and more. Type `/help` for the list. Host-only commands check that you are the host. This copy has the `/tp` command removed. |
 
 ### Gameplay and quality of life
 
