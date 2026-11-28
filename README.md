@@ -9,7 +9,7 @@ Runs on SuperBLT (64-bit). Last updated November 2026.
 | Path in `mod_pack.zip` | What it is |
 |---|---|
 | `mod_pack/WSOCK32.dll` | SuperBLT hook DLL. Goes in the game folder, next to `PAYDAY2.exe`. |
-| `mod_pack/mods/` | 33 mod folders plus `mods/saves/` (my settings for the mods below). Goes in the game folder. |
+| `mod_pack/mods/` | 34 mod folders plus `mods/saves/` (my settings for the mods below). Goes in the game folder. |
 
 ## Installation
 
@@ -95,7 +95,7 @@ Settings for VanillaHUD Plus, Void UI Scoreboard, Lobby Player Info, BerserkerQO
 
 ### My mods
 
-Written or maintained by me. They are not on ModWorkshop; the source is on GitHub where linked. Each mod's folder in `mods/` has the same name as the mod.
+Written or maintained by me. The source is on GitHub where linked; only Drop-in Desync Fix is also on ModWorkshop. Each mod's folder in `mods/` has the same name as the mod.
 
 | Mod | Description |
 |---|---|
@@ -109,6 +109,7 @@ Written or maintained by me. They are not on ModWorkshop; the source is on GitHu
 | [Recent Players Invite](https://github.com/JP-mercier/payday2-recent-players-invite) | Adds a **Recent** tab to the Social Hub with the players you played with: join their lobby, invite them to yours, or message them. |
 | [Chat Input Fix](https://github.com/JP-mercier/payday2-chat-input-fix) | Keeps the chat box you are typing in visible: on the end screens it no longer hides behind the payday screen (and then sends your old text with the next message), and during the "is joining" pause you can see what you type. A message you were typing when the screen changes (lobby to heist, heist to end screen) is kept and the chat reopens with it. |
 | [Post Heist Skip](https://github.com/JP-mercier/payday2-post-heist-skip) | One key (Backspace by default) at the end of a heist: skips the XP screen, picks your card, and as host takes everyone back to the lobby once the card drops are rolled. As a client it picks your card when the host moves everyone to the card screen. Press it again to stop waiting for teammates' cards. |
+| [Drop-in Desync Fix](https://github.com/JP-mercier/payday2-drop-in-desync-fix) | Fixes the "desync" where players can't connect to each other when someone joins: a drop-in stuck on the loading screen, or a teammate who never appears for one player. As host, other players need nothing. As a client, it fixes your own connections in lobbies hosted without the mod. Also on [ModWorkshop](https://modworkshop.net/mod/60196). |
 
 ### HUD and interface
 
